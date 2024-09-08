@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+.navbar{
+    background-color: gainsboro;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px 0px;
+
+}
+.navbar a{
+    margin: 10px 0px;
+    padding: 21px 10px;
+    text-decoration: none;
+
+
+
+}
+a:hover{
+    background-color: antiquewhite;
+    
+
+}
+
+.container{
+    width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    font-weight: bold;
+}
+.content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 0px 130px 50px 5px;
+    text-align: center;
+    width: 200px;
+}
+.container1{
+    width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    color: white;
+    border: 1px solid lightblue;
+    border: none;
+    padding: 15px;
+    width: 200px;  
+
+}
+.n{
+    background-color: rgb(108, 174, 232);
+}
+.name{
+    background-color: rgb(96, 168, 231);
+
+}.cate{
+    background-color: rgb(67, 152, 227);
+
+}.price{
+    background-color: rgb(25, 128, 218);
+
+}
+.container2{
+    display: flex;
+    padding: 20px;
+
+}
+.main-content{
+    margin-top: 50px;
+    flex: 3;
+    margin-right: 10px;
+}
+.sidebar{
+    margin-top: 50px;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.box{
+    font-size: xx-large;
+    padding: 100px 80px;
+    text-align: center;
+    background-color: white;
+}
+.content2{
+    background-color: aliceblue;
+
+
+}
+.box1{
+    padding: 15px 15px 150px ;
+    background-color: white;
+    margin-right: 50px;
+    border-radius: 10px;
+}
